@@ -1,10 +1,10 @@
-import Container from "./lessons/1.Le-JSX/Container"
+import Container from "./lessons/4.Le-state/Container"
 
 function App() {
 
   return (
     <div className="main-content">
-      <h1>App composant Racine</h1>
+      <h1>Cours REACT de A a Z</h1>
       <Container / >
     </div>
   )

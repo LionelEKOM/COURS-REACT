@@ -1,7 +1,15 @@
-export default function Container() {
+import React from 'react'
+import ListItem from './ListItem'
+
+function Container() {
   return (
     <div>
-      <h1>Premier Composant</h1>
+       <p>Premier Composant</p>
+       <ListItem />
+       <ListItem />
+       <ListItem />
     </div>
   )
 }
+
+export default Container
