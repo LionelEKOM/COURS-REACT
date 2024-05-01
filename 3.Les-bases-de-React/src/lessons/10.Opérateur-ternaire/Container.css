@@ -9,3 +9,10 @@ input,
 p {
   margin-bottom: 10px;
 }
+
+.valid {
+  color: lightgreen
+}
+.invalid {
+  color: red;
+}
