@@ -1,0 +1,23 @@
+.container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+.newLetter {
+    background-color: orange;
+    color: #111;
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 25px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 0.4s ease-out;
+}
+
+.newLetter.active {
+    transform: translateX(0);
+    opacity: 1;
+}
