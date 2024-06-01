@@ -1,4 +1,4 @@
-import Container from "./lessons/7.Utiliser-un-observateur/Container";
+import Container from "./lessons/6.Appeler-une-API/Container";
 
 function App() {
   return (

@@ -21,6 +21,7 @@ export default function Container() {
         {
           data.map((user, index) => (
             <li key={index}>
+              {/* {user.id} */}
               {user.name}
             </li>
           ))

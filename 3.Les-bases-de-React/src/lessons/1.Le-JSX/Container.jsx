@@ -10,7 +10,7 @@ function Container() {
         <br />
         <button className="btn">Valider</button>
         <p>{15 + 6}</p>
-        <p>{"Ashuka".toUpperCase()}</p>
+        <h1><i>{"Ashuka".toUpperCase()}</i></h1>
         <input type="text" name="test" id="" />
       </ul>
     </div>
