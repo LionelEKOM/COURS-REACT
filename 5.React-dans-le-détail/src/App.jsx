@@ -1,4 +1,4 @@
-import Container from "./lessons/6.Appeler-une-API/Container";
+import Container from "./lessons/9.Sélectionner-un-tableau-d'éléments/Container";
 
 function App() {
   return (
