@@ -1,3 +1,4 @@
+import Calculation from "./Calculation"
 import "./Container.css"
 
 export default function Container() {
@@ -5,7 +6,7 @@ export default function Container() {
   return (
     <div>
       <h1>useMemo</h1>
-
+        <Calculation />
     </div>
   )
 }
