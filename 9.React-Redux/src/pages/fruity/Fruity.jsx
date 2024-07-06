@@ -1,10 +1,12 @@
 import React from 'react'
 import FruityCard from './FruityCard'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { addFruit, removeFruit } from '../../features/fruitsCard'
 
 export default function Fruity() {
 
     const fruitsList = useSelector(state => state.fruits)
+    const dispatch = useDispatch()
 
   return (
     <div>
@@ -31,7 +33,8 @@ export default function Fruity() {
                 </div>
 
                 <div className="flex gap-2">
-                    <button 
+                    <button
+                    onClick={() => dispatch(addFruit(fruit))}
                     className="w-full bg-green-600 
                     hover:bg-green-500 text-slate-100 p-2 
                     rounded text-lg"
@@ -39,7 +42,8 @@ export default function Fruity() {
                     >
                         Add one
                     </button>
-                    <button 
+                    <button
+                    onClick={() => dispatch(removeFruit(fruit.id))}
                     className="w-full bg-red-600 hover:bg-red-500 
                     text-slate-100 p-2 
                     rounded text-lg"
